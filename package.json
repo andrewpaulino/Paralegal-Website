@@ -1,0 +1,43 @@
+{
+  "name": "paralegal-website",
+  "version": "1.0.0",
+  "description": "A paralegal Website for Client",
+  "main": "./server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "chai": "^4.0.2",
+    "express": "^4.15.3",
+    "express-flash": "git://github.com/RGBboy/express-flash.git",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.4",
+    "express-validator": "^3.2.1",
+    "handlebars": "^4.0.10",
+    "handlebars-loop": "^1.0.3",
+    "jquery": "^3.2.1",
+    "js-alert": "^1.0.4",
+    "jsdom": "^11.0.0",
+    "lodash": "^4.17.4",
+    "mocha": "^3.2.0",
+    "mongoose": "^4.11.5",
+    "morgan": "^1.8.2",
+    "nightmare": "^2.10.0",
+    "node-handlebars": "^0.9.7",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "pug": "^2.0.0-rc.3",
+    "session": "^0.1.0",
+    "should": "^11.2.1",
+    "stripe": "^4.23.2",
+    "sweetalert": "^1.1.3"
+  },
+  "keywords": [
+    "Law",
+    "And",
+    "Order"
+  ],
+  "author": "AJP LLC",
+  "license": "ISC"
+}
